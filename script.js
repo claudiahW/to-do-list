@@ -3,3 +3,8 @@ const toDoItems = document.getElementsByClassName
 const input =document.getElementById("input");
 const trashIcon=document.getElementById("trash");
 
+//eventlistener wil allow user to click enter 
+input.addEventListener("keydown",function(event){
+    if(event.key === "Enter")
+    addItem();
+})
