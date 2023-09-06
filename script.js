@@ -37,7 +37,7 @@ function addItem(){
 
  toDoItems.appendChild(divParent);
 
- input.value = "";
+ input.value = '';
 
 }
 
