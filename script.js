@@ -15,4 +15,14 @@ function addItem(){
     let checkIcon =document.createElement("i");
     let trashIcon = document.createElement("i");
 
+    divParent.className = "item";
+    divParent.innerHTML = '<div>'+input.value+'</div>';
+
+   //create our two icons
+   checkIcon.className = "fas fa-check-square";
+   checkIcon.style.color = "lightgray";
+   checkIcon.addEventListener("click", function(){
+    checkIcon.style.color = "limegreen";
+   })
+
 }
