@@ -11,3 +11,16 @@ body{
     background-image: linear-gradient(to right, #e22865 , #37adcd);
     color: white;
 }
+.container{
+    border: 2px solid black;
+    width: 95%;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 25px 0;
+}
+
