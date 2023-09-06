@@ -1,0 +1,11 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@600&family=PT+Sans:ital@1&family=Roboto&family=Roboto+Mono:ital,wght@1,100&family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Black Ops One', cursive;
+}
