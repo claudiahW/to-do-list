@@ -86,3 +86,26 @@ body{
     transition: all 0.30s ease-in-out;
 
 }
+.item:hover{
+    box-shadow: 0 0 20px #e22865;
+    border: 1px solid #e22865;
+}
+.item i{
+    cursor: pointer;
+    margin: 0 5px;
+}
+@media(max-width:768px){
+    .nav{
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav h2{
+        margin: 10px 0;
+    }
+    .user-input{
+        width: 100%;
+    }
+    .to-do-items{
+        width: 100%;
+    }
+}
