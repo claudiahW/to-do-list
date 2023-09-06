@@ -23,4 +23,21 @@ body{
     width: 100%;
     margin: 25px 0;
 }
+.nav h2{
+    font-size: 2rem;
+}
+.user-input{
+    border: 1px solid black;
+    width: 350px;
+    text-align: center;
+}
+.user-input input{
+    width: 80%;
+    outline: none;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 
