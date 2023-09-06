@@ -44,7 +44,23 @@ body{
     -o-transition: all 0.30s ease-in-out;
     transition: all 0.30s ease-in-out;
 
-
 }
-
-
+.user-input input:focus{
+    box-shadow: 0 0 5px #e22865;
+    border: 1px solid #e22865;
+}
+.user-input button{
+    cursor: pointer;
+    padding: 8px;
+    width: fit-content;
+    transition: 1s;
+    outline: none;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.user-input button:hover{
+    background-color: transparent;
+    color: white;
+}
