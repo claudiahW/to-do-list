@@ -67,6 +67,7 @@ body{
     margin: auto;
 }
 .item{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     width: 100%;
